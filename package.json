@@ -3,5 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Rebeca <rebecaverasa@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": ""
+  },
+  "dependencies": {
+    "nodemon": "^2.0.21",
+    "sucrase": "^3.29.0",
+    "typescript": "^4.9.5"
+  }
 }
