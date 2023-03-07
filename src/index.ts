@@ -1,3 +1,2 @@
-const a = 5;
-
-console.log(a);
+const meme:number = 5
+console.log(meme);

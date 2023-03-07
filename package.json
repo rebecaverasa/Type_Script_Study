@@ -5,11 +5,11 @@
   "author": "Rebeca <rebecaverasa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.ts",
-    "build": ""
+    "dev": "npx ts-node src/index.ts",
+    "build": "sucrase ./src ./dist --transforms typescript,imports"
   },
   "dependencies": {
-    "nodemon": "^2.0.21",
+    "npx": "^10.2.2",
     "sucrase": "^3.29.0",
     "typescript": "^4.9.5"
   }
